@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".conservator.fragment.bottom.manager.Fragment_manager">
+
+    <LinearLayout
+        android:id="@+id/statusbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="45px"
+        android:background="@color/colorAppTheme"
+        android:orientation="vertical" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_Fragment_manager_title"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            app:tabSelectedTextColor="#2c2c2c"
+            android:background="@color/white"
+            app:tabIndicatorColor="@color/white"
+            app:tabTextColor="@color/text1"/>
+
+    </LinearLayout>
+
+
+    <com.example.mynews.view.MyViewPager
+        android:id="@+id/vp_Fragment_manager_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:isScrollContainer="true"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</LinearLayout>

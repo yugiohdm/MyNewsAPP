@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="logintype">
+        <item>用户名</item>
+        <item>手机号</item>
+        <item>邮箱账号</item>
+    </string-array>
+</resources>

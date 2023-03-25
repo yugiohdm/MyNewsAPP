@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/users_manager_image"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/mmexport1668407944997"/>
+
+     <RelativeLayout
+        android:layout_toRightOf="@id/users_manager_image"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp">
+        <RelativeLayout
+          android:id="@+id/relativelayout1"
+          android:layout_width="wrap_content"
+          android:layout_height="30dp">
+         <TextView
+            android:id="@+id/text1"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID："
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/users_manager_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/text1"
+            android:text="00"
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
+     </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp">
+            <TextView
+                android:id="@+id/text2"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="用户名："
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/users_manager_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/text2"
+                android:text="dxb"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp">
+
+            <Button
+                android:id="@+id/users_detail"
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:text="详情"
+                android:textColor="@color/black"
+                android:textSize="8sp"/>
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_toRightOf="@id/users_manager_image"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <TextView
+            android:id="@+id/text3"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="类型："
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
+
+
+        <TextView
+            android:id="@+id/users_manager_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/text3"
+            android:text="？？？"
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
+
+
+            <ImageView
+                android:id="@+id/users_delete"
+                android:layout_alignParentRight="true"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/cross"/>
+    </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

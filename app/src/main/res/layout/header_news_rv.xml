@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.mynews.view.RollPagerView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rv_news_detail"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    app:rollviewpager_play_delay="3000"
+    app:rollviewpager_hint_gravity="right" />

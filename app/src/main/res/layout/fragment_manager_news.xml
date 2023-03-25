@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".conservator.fragment.bottom.manager.Fragment_manager_news">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center_vertical"
+       android:background="@drawable/shape16">
+
+       <RadioGroup
+           android:id="@+id/RadioGroup1"
+           android:layout_marginTop="5dp"
+           android:layout_marginBottom="5dp"
+           android:layout_width ="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+           <RadioButton
+               android:layout_marginLeft="15dp"
+               android:id="@+id/RadioButton1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="公共新闻管理"
+               android:checked="true"/>
+           <RadioButton
+               android:id="@+id/RadioButton2"
+               android:layout_marginLeft="15dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="用户发布的新闻管理" />
+
+           <Button
+               android:layout_marginLeft="10dp"
+               android:id="@+id/news_manager_Button"
+               android:layout_width="60dp"
+               android:layout_height="40dp"
+               android:text="选择"
+               />
+       </RadioGroup>
+
+   </RelativeLayout>
+
+
+    <FrameLayout
+        android:id="@+id/news_manager_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>

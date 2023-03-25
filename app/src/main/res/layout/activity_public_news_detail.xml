@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".conservator.PublicNewsDetailActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/shape8">
+        <ImageView
+            android:id="@+id/goback_publicnews_detail_activity"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/left_arrow"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="公共新闻详情"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <LinearLayout
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="新闻ID:"
+                android:textSize="22sp"/>
+
+            <EditText
+                android:id="@+id/publicnews_detail_uniquekey"
+                android:layout_marginLeft="5dp"
+                android:cursorVisible="false"
+                android:editable="false"
+                android:textIsSelectable="false"
+                android:background="@drawable/shape14"
+                android:paddingStart="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="新闻标题:"
+                android:textSize="22sp"/>
+
+            <EditText
+                android:id="@+id/publicnews_detail_title"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/shape14"
+                android:paddingStart="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="新闻时间:"
+                android:textSize="22sp"/>
+
+            <EditText
+                android:id="@+id/publicnews_detail_date"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/shape14"
+                android:paddingStart="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="新闻类型:"
+                android:textSize="22sp"/>
+
+            <EditText
+                android:id="@+id/publicnews_detail_category"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/shape14"
+                android:paddingStart="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="新闻来源:"
+                android:textSize="22sp"/>
+
+            <EditText
+                android:id="@+id/publicnews_detail_author"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/shape14"
+                android:paddingStart="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="新闻链接:"
+                android:textSize="22sp"/>
+
+            <EditText
+                android:id="@+id/publicnews_detail_url"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/shape14"
+                android:paddingStart="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="新闻图片1:"
+                android:textSize="22sp"/>
+
+            <EditText
+                android:id="@+id/publicnews_detail_thumbnail1"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/shape14"
+                android:paddingStart="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="新闻图片2:"
+                android:textSize="22sp"/>
+
+            <EditText
+                android:id="@+id/publicnews_detail_thumbnail2"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/shape14"
+                android:paddingStart="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="新闻图片3:"
+                android:textSize="22sp"/>
+
+            <EditText
+                android:id="@+id/publicnews_detail_thumbnail3"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/shape14"
+                android:paddingStart="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="是否有新闻内容(1表示有):"
+                android:textSize="22sp"/>
+
+            <EditText
+                android:id="@+id/publicnews_detail_is_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/shape14"
+                android:paddingStart="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+        <Button
+            android:layout_marginTop="30dp"
+            android:id="@+id/publicnews_detail_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="修改"/>
+    </LinearLayout>
+
+</LinearLayout>

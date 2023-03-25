@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <TextView
+           android:id="@+id/releasenews_manager_content"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="用户新闻内容："
+           android:textColor="@color/black"
+           android:textSize="17sp"/>
+
+   </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/releasenews_manager_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="时间："
+            android:textColor="@color/black"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:id="@+id/releasenews_manager_state"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="审核状态："
+            android:textColor="@color/black"
+            android:textSize="17sp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/releasenews_manager_uid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发布人ID："
+            android:textColor="@color/black"
+            android:textSize="17sp"/>
+
+    </RelativeLayout>
+</LinearLayout>

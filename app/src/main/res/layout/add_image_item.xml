@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:id="@+id/remove_image"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/cross"/>
+
+        <ImageView
+            android:id="@+id/add_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/mmexport1668407944997"/>
+    </RelativeLayout>
+
+
+
+</LinearLayout>

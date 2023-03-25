@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape11">
+
+        <EditText
+            android:layout_marginLeft="18dp"
+            android:id="@+id/title_editext"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="填写标题会有更多赞哦（选填）"
+            android:background="@null"/>
+    </LinearLayout>
+
+</LinearLayout>

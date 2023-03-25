@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".conservator.fragment.bottom.manager.Fragment_manager_publicnews">
+
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:id="@+id/publicnews_mananger_edittext"
+            android:layout_marginLeft="5dp"
+            android:drawablePadding="10dp"
+            android:layout_width="335dp"
+            android:layout_height="40dp"
+            android:paddingStart="10dp"
+            android:background="@drawable/shape3"
+            android:hint="请输入要找的新闻名称"/>
+
+        <ImageView
+            android:id="@+id/publicnews_detail_add"
+            android:layout_toRightOf="@+id/publicnews_mananger_edittext"
+            android:layout_marginLeft="10dp"
+            android:layout_width="35dp"
+            android:layout_height="40dp"
+            android:src="@drawable/addimage"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.example.mynews.view.SwipeMenuListView
+            android:id="@+id/publicnews_manager_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
